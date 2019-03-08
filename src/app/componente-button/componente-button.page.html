@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot='start'>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Componente - BUTTON </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-button>Default</ion-button>
+  <ion-button href='http://ilovecode.com.br'>Link</ion-button>
+  <ion-button href='/componentes' goback>GoBack</ion-button>
+
+  <ion-button color='primary'>Primary</ion-button>
+  <ion-button color='secondary'>Secondary</ion-button>
+
+  <ion-button expand='full'>Full Button</ion-button>
+  <ion-button expand='full' fill='outline'>Full Button + Outline</ion-button>
+
+  <ion-button expand='block'>Block Button</ion-button>
+  <ion-button expand='block' fill='outline'>Block Button + Outline</ion-button>
+
+  <ion-button round>Round Button</ion-button>
+
+  <ion-button>
+    <ion-icon name='star' slot='start'></ion-icon>
+    Like
+  </ion-button>
+  <ion-button>
+    <ion-icon name='star' slot='end'></ion-icon>
+    Like
+  </ion-button>
+  <ion-button>
+    <ion-icon name='star' slot='icon-only'></ion-icon>
+  </ion-button>
+
+  <ion-button color='dark' size='small'> Pequeno </ion-button>
+  <ion-button color='dark'> Default </ion-button>
+  <ion-button color='dark' size='large'> Grande </ion-button>
+</ion-content>
