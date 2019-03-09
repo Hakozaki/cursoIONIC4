@@ -1,0 +1,17 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot='start'>
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+      <ion-title>Componente - TOAST</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content padding>
+  <ion-button expand='block' (click)='showToast()'>TOAST</ion-button>
+  <ion-button expand='block' (click)='showToast("top")'>TOAST TOP</ion-button>
+  <ion-button expand='block' (click)='showToast("middle")'>TOAST MIDDLE</ion-button>
+  <ion-button expand='block' (click)='showToast("bottom")'>TOAST BOTTOM</ion-button>
+  <ion-button expand='block' (click)='showToast("close")'>TOAST CLOSE</ion-button>
+  <ion-button expand='block' (click)='showToast("closeText")'>TOAST CLOSE BUTTON TEXT</ion-button>
+</ion-content>
