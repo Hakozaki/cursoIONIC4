@@ -1,0 +1,71 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot='start'>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Componente - SELECT</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-list-header>Select Simples</ion-list-header>
+    <ion-item>
+      <ion-label position='stacked'>Sexo</ion-label>
+      <ion-select placeholder='Selecione' value='M' okText='OK' cancelText='CANCELAR'>
+        <ion-select-option value='M'>Maculino</ion-select-option>
+        <ion-select-option value='F'>Feminino</ion-select-option>
+        <ion-select-option value='O'>Outros</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>Select Multiplo</ion-list-header>
+    <ion-item>
+      <ion-label position='stacked'>Sexo</ion-label>
+      <ion-select multiple='true' placeholder='Selecione' value='M' okText='OK' cancelText='CANCELAR'>
+        <ion-select-option value='M'>Maculino</ion-select-option>
+        <ion-select-option value='F'>Feminino</ion-select-option>
+        <ion-select-option value='O'>Outros</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>Select Customizado</ion-list-header>
+
+    <ion-item>
+      <ion-label position='stacked'>Sexo - ALERTA</ion-label>
+      <ion-select [interfaceOptions]='customAlertOption' interface='alert' placeholder='Selecione' value='M' okText='OK'
+        cancelText='CANCELAR'>
+        <ion-select-option value='M'>Maculino</ion-select-option>
+        <ion-select-option value='F'>Feminino</ion-select-option>
+        <ion-select-option value='O'>Outros</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position='stacked'>Sexo - POPOVER</ion-label>
+      <ion-select [interfaceOptions]='customPopoverOption' interface='popover' placeholder='Selecione' value='M'
+        okText='OK' cancelText='CANCELAR'>
+        <ion-select-option value='M'>Maculino</ion-select-option>
+        <ion-select-option value='F'>Feminino</ion-select-option>
+        <ion-select-option value='O'>Outros</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position='stacked'>Sexo - ACTIONSHEET</ion-label>
+      <ion-select [interfaceOptions]='customActionSheetOption' interface='action-sheet' placeholder='Selecione'
+        value='M' okText='OK' cancelText='CANCELAR'>
+        <ion-select-option value='M'>Maculino</ion-select-option>
+        <ion-select-option value='F'>Feminino</ion-select-option>
+        <ion-select-option value='O'>Outros</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+
+
+</ion-content>

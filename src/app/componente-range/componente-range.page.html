@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Componente - RANGE</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+      <ion-label position='stacked'>Default</ion-label>
+      <ion-range></ion-range>
+  </ion-item>
+  <ion-item>
+      <ion-label position='stacked'>PIN</ion-label>
+      <ion-range pin='true'></ion-range>
+  </ion-item>
+  <ion-item>
+      <ion-label position='stacked'>MIN/MAX</ion-label>
+      <ion-range color='danger' min='18' max='40' pin='true'></ion-range>
+  </ion-item>
+  <ion-item>  
+      <ion-range color='dark' min='40' max='120' pin='true'>
+        <ion-icon size='small' slot='start' name='partly-sunny'></ion-icon>
+        <ion-icon size='small' slot='end' name='sunny'></ion-icon>
+      </ion-range>
+  </ion-item>
+  <ion-item>  
+      <ion-label position='stacked'>STEP/SNAP</ion-label>
+      <ion-range color='dark' min='10' max='1000' step='10' snaps='true' pin='true'>
+        <ion-icon size='small' slot='start' name='partly-sunny'></ion-icon>
+        <ion-icon size='small' slot='end' name='sunny'></ion-icon>
+      </ion-range>
+  </ion-item>
+
+  <ion-item>  
+      <ion-label position='stacked'>DUALKNOBS</ion-label>
+      <ion-range color='dark' min='10' max='1000' step='10' dualKnobs='true' snaps='true' pin='true'>
+        <ion-icon size='small' slot='start' name='partly-sunny'></ion-icon>
+        <ion-icon size='small' slot='end' name='sunny'></ion-icon>
+      </ion-range>
+  </ion-item>
+  
+</ion-content>

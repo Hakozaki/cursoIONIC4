@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot='start'>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Componente - REFRESHER</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-refresher slot='fixed' (ionRefresh)='atualizar($event)'>
+    <ion-refresher-content pullingIcon='arrow-dropdown' pullingText='Puxe para atualziar' refreshingSpinner='circles'
+      refreshingText='Atualizando....'>
+
+    </ion-refresher-content>
+  </ion-refresher>
+  <h3>Curso</h3>
+  {{ message }}
+
+</ion-content>

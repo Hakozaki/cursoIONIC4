@@ -1,0 +1,95 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot='start'>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Componente - LIST</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Lista com TEXTO</h3>
+  <ion-list>
+    <ion-item>
+      <ion-label>Abacate</ion-label>
+      <ion-label>Maca</ion-label>
+      <ion-label>Goiaba</ion-label>
+    </ion-item>
+  </ion-list>
+
+  <h3>Lista com INPUT</h3>
+  <ion-list>
+    <ion-item>
+      <ion-label>Input</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Check</ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-radio-group>
+        <ion-list-header>
+          Radio
+        </ion-list-header>
+        <ion-item>
+          <ion-label>1</ion-label>
+          <ion-radio slot='start'></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>2</ion-label>
+          <ion-radio slot='start'></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-item>
+  </ion-list>
+
+  <h3>Avatar</h3>
+  <ion-list>
+    <ion-item>
+      <ion-avatar slot='start'>
+        <ion-img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfb_HGRQnS3xS9HQibHExmG7bdP6reXCNKAAFgmps4p8TwwbUB'></ion-img>
+      </ion-avatar>
+      <ion-label>
+        <h2>Sylas</h2>
+        <h3>O Abjugado</h3>
+        <p>TOP/MID/JUNGLE</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot='start'>
+        <ion-img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5XFQML8ZoXBo1g05WXbESlvSRVah3Dl_2XiP8cFjlU9K_kFb5fw'></ion-img>
+      </ion-avatar>
+      <ion-label>
+        <h2>Ashe</h2>
+        <h3>A arqueira de gelo</h3>
+        <p>ADC</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <h3>Lista com sliding</h3>
+  <ion-list>
+    <ion-item-sliding>
+      <ion-item>
+          <ion-avatar slot='start'>
+              <ion-img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfb_HGRQnS3xS9HQibHExmG7bdP6reXCNKAAFgmps4p8TwwbUB'></ion-img>
+            </ion-avatar>
+            <ion-label>
+              <h2>Sylas</h2>
+              <h3>O Abjugado</h3>
+              <p>TOP/MID/JUNGLE</p>
+            </ion-label>
+      </ion-item>
+      <ion-item-options>
+        <ion-item-option>JOGAR</ion-item-option>
+        <ion-item-option color='danger'>BANIR</ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+
+
+</ion-content>

@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot='start'>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Componente - SLIDE</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-slides pager='true'>
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <h1>League of Legends</h1>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-img
+              src='https://www.maistecnologia.com/wp-content/uploads/2014/11/leagueoflegendsbig_5f2028ee86d150ad8c456113ec9c54e3.jpg'>
+            </ion-img>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-img
+        src='https://image.redbull.com/rbcom/010/2017-02-16/1331845177820_2/0010/1/1500/1000/1/voc%C3%AA-consegue-terminar-nosso-quiz-ouro.jpg'>
+      </ion-img>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-img
+        src='https://am-a.akamaihd.net/image?quality=preserve&f=https://lolstatic-a.akamaihd.net/frontpage/apps/prod/playnow-global/pt_BR/fc1312b6f05f6bbf465d387efbc5860767f01f30/assets/img/cover-1.jpg'>
+      </ion-img>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-img
+        src='http://s2.glbimg.com/kWAq2TUfg2tEwXB0B1GxkUf41fA=/695x0/s.glbimg.com/po/tt2/f/original/2015/09/14/league-of-legends.jpg'>
+      </ion-img>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-button expand='block' (click)='comecar()'>Começar</ion-button>
+    </ion-slide>
+
+  </ion-slides>
+
+</ion-content>

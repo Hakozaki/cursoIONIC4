@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot='start'>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Componente - LOADING</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-button expand='block' (click)='loading("default")'>Loading Default</ion-button>  
+  <ion-button expand='block' (click)='loading("lines")'>Loading Custom - LINES</ion-button>
+  <ion-button expand='block' (click)='loading("lines-small")'>Loading Custom - LINES-SMALL</ion-button>
+  <ion-button expand='block' (click)='loading("dots")'>Loading Custom - DOTS</ion-button>
+  <ion-button expand='block' (click)='loading("bubbles")'>Loading Custom - BUBBLES</ion-button>
+  <ion-button expand='block' (click)='loading("circle")'>Loading Custom - CIRCLE</ion-button>
+  <ion-button expand='block' (click)='loading("crescent")'>Loading Custom - CRESCENT</ion-button>
+</ion-content>
